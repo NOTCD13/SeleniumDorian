@@ -1,4 +1,4 @@
-public class EjercicioVariables1 {
+public class O2_EjercicioVariables1 {
     public static void main(String[] args) {
         String profesion = " Abogado";
         int CantidadJuciosGanados = 3;

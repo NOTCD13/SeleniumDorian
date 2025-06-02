@@ -1,4 +1,4 @@
-public class EjercicioEscribirConsola {
+public class O1_EjercicioEscribirConsola {
     public static void main(String[] args) {
         /*
         Asi se comenta

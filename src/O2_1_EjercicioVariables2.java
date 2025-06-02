@@ -1,4 +1,4 @@
-public class EjercicioVariables2 {
+public class O2_1_EjercicioVariables2 {
     public static void main(String[] args) {
 //        var profesion = " Abogado";
 //        var CantidadJuciosGanados = 3;

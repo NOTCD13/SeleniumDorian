@@ -1,4 +1,4 @@
-public class EjercicioPrintf {
+public class O3_EjercicioPrintf {
     public static void main(String[] args) {
         final var numeroGatos = 5;
         final var peso = 13.2;
