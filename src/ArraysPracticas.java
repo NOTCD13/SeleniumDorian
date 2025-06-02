@@ -72,6 +72,7 @@ public class ArraysPracticas {
         return ArrayEscalar;
     }
 
+    //comentario
     static void imprimirInformacion(int[] arrayBase, int[] arrayEscalar){
         System.out.printf("El array Base es %s%n%n", Arrays.toString(arrayBase));
         System.out.printf("El array escalado es %s%n%n", Arrays.toString(arrayEscalar));
