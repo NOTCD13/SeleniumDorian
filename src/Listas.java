@@ -10,18 +10,21 @@ public class Listas {
 
 //        final var arrayNombres= crearArrayNombre();
 //        final var arrayImc = crearArrayImc();
-//
 //        rellenarListasIMC(listaAlto,listaMedio,listaBajo,arrayNombres,arrayImc);
+//        ----------------------------------------------------------------------------
+//        final var arrayNombres = crearArrayNombre();
+//        final var arrayNotas = crearArrayNotas();
+//        rellenarListasNotas(listaAlto,listaMedio,listaBajo,arrayNombres,arrayNotas);
+//        ----------------------------------------------------------------------------
+//        System.out.printf("Lista alto: %s%n",listaAlto);
+//        System.out.printf("Lista medio: %s%n",listaMedio);
+//        System.out.printf("Lista bajo: %s%n",listaBajo);
+//        ----------------------------------------------------------------------------
+        final var lista =  UtilitiesRandomP.generarListaIntAleatoria(30,10,500,new Random());
+        imprimirLista(lista);
+        ordenarLista(lista);
+        imprimirLista(lista);
 
-        final var arrayNombres = crearArrayNombre();
-        final var arrayNotas = crearArrayNotas();
-
-        rellenarListasNotas(listaAlto,listaMedio,listaBajo,arrayNombres,arrayNotas);
-
-
-        System.out.printf("Lista alto: %s%n",listaAlto);
-        System.out.printf("Lista medio: %s%n",listaMedio);
-        System.out.printf("Lista bajo: %s%n",listaBajo);
 
     }
     static String[] crearArrayNombre(){
@@ -76,6 +79,36 @@ public class Listas {
             }
 
         }
+    }
+
+
+    static void ordenarArray(int[] array){
+        final var n = array.length;
+
+        for (var i = 0; i < n; i++) {
+            for (var j = 0; j < n - 1; j++) {
+                if (array[j] > array[j + 1]){
+                    final var tempo = array[j];
+                    array[j]=array[j + 1];
+                    array[j + 1]=tempo;
+                }
+            }
+        }
+    }
+    static void ordenarLista(List<Integer> lista){
+        final var n = lista.size();
+        for (var i = 0; i < n; i++) {
+            for (var j = 0; j < n -1; j++) {
+                if (lista.get(j) > lista.get(j + 1)){
+                    final var temp = lista.get(j);
+                    lista.set(j,lista.get(j + 1));
+                    lista.set(j + 1,temp);
+                }
+            }
+        }
+    }
+    static void imprimirLista(List<Integer> lista){
+        System.out.printf("La lista es: %s%n",lista);
     }
 }
 
