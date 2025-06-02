@@ -40,8 +40,7 @@ public class UtilitiesRandomP {
 
     }
 
-    //---------------------------------Metodos del ejecicio 1---------------------------------
-    //---------------------------------Metodos del ejecicio 1---------------------------------
+        //---------------------------------Metodos de UtilitiesRandom---------------------------------
     static int generarRandomInt(int min, int max, Random random) {
         final var numeroRandomInt = random.nextInt(max - min + 1) + min;
         return numeroRandomInt;
@@ -53,6 +52,39 @@ public class UtilitiesRandomP {
         final var numeroRandomdouble = (max + min) * random.nextDouble() + min;
         return numeroRandomdouble;
     }
+
+    //-----------------------Metodos de Array random-------------------------------//
+
+    static int[] generarRandomArrayInt(int n,int min,int max,Random random){
+        final var array = new int [n];
+
+        for (var i = 0; i < n; i++) {
+            array[i]=generarRandomInt(min,max,random);
+        }
+        return array;
+    }
+
+    static double[] generarRandomArrayDouble(int n,int min,int max,Random random){
+        final var array = new double[n];
+
+        for (var i = 0; i < n; i++) {
+            array[i]=generarRandomDouble(min,max,random);
+        }
+        return array;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     //---------------------------------Metodos del ejecicio 2---------------------------------
 
@@ -97,5 +129,7 @@ public class UtilitiesRandomP {
     static void imprimirResultado4(int radio, double area, double perimetro) {
         System.out.printf("Para un radio de %d se tiene un perimetro de %.3f y un area de %.3f", radio, perimetro, area);
     }
+
+
 
 }
