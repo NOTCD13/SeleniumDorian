@@ -13,7 +13,7 @@ public class TryCatch {
         mostrarArray((arrayAleatorio));
         indexLeido =ScannerManager.leerInt(scanner,"ingrese el index deseado");
         if (indexLeido !=-1){
-            mostrarElementos(indexLeido,arrayAleatorio);
+            mostrarElementos(indexLeido,arrayAleatorio); //
         }
        }while (indexLeido != -1);
        scanner.close();
