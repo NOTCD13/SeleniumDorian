@@ -10,7 +10,7 @@ public class ClaseString {
         /**
          * cadena.length()= size de la cadena
          * cadena.charAt(index)= obtener char segun un index
-         * cadenaEx.indexOf(char/String) = indice dle 1er char o indice de la subcadena indicada
+         * cadenaEx.indexOf(char/String) = indice del 1er char o indice de la subcadena indicada
          */
 
         final var multilinea = """
@@ -39,13 +39,15 @@ public class ClaseString {
         //0> si la cadena1  es "mayor" alfabeticamente que la cadena 2
 
         //Desdoblar un string con un separador
-        //cadenaEx.split("seperador")
+        //cadenaEx.split("separador")
         //cadena.replace(cadena1,cadena2) //Reemplaza todas las cadena1 por cadena2
 
         //cadena.startsWith(cadena/char) //Verifica si la cadena comienza con la letra indicada //boolean
         //cadena.endsWith(cadena/car) //Verifica si la cadena termina con la letra indicada // boolean
 
         //if(nombre.isEmpty()) verifica si la cadena tiene longitud 0 // boolean
+
+
 
 
 
