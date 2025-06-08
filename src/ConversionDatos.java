@@ -1,3 +1,5 @@
+import utilities.ScannerManager;
+
 import java.util.Scanner;
 
 public class ConversionDatos {

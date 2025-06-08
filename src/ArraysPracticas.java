@@ -1,3 +1,6 @@
+import utilities.ScannerManager;
+import utilities.UtilitiesRandomP;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
@@ -32,9 +35,9 @@ public class ArraysPracticas {
         final var size = ScannerManager.leerInt(scanner,"Ingrese el tamaño de los arrays");
         final var min = ScannerManager.leerInt(scanner,"Ingrese el minimo del array");
         final var max = ScannerManager.leerInt(scanner,"Ingrese el maximo del array");
-//        final var escalar=ScannerManager.leerInt(scanner,"Ingrese el escalar");
+//        final var escalar=utilities.ScannerManager.leerInt(scanner,"Ingrese el escalar");
 
-//        final var arrayBase = UtilitiesRandomP.generarRandomArrayInt(size,min,max,random);
+//        final var arrayBase = utilities.UtilitiesRandomP.generarRandomArrayInt(size,min,max,random);
 //        final var ArrayEscalar = crearArrayEscalar(arrayBase,escalar);
 //        imprimirInformacion(arrayBase,ArrayEscalar);
         //---------------------------------------------------------------------

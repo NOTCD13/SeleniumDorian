@@ -46,7 +46,7 @@ public class Maps {
 //        var map1 = crearMap();
 //        int seleccion;
 //        do {
-//            seleccion = ScannerManager.leerInt(scanner,"Ingrese una key");
+//            seleccion = utilities.ScannerManager.leerInt(scanner,"Ingrese una key");
 //            mostrarUsuario(seleccion,map1);
 //        } while(seleccion !=-1);
 

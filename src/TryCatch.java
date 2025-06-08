@@ -1,3 +1,6 @@
+import utilities.ScannerManager;
+import utilities.UtilitiesRandomP;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
@@ -11,7 +14,7 @@ public class TryCatch {
        int indexLeido;
        do{
         mostrarArray((arrayAleatorio));
-        indexLeido =ScannerManager.leerInt(scanner,"ingrese el index deseado");
+        indexLeido = ScannerManager.leerInt(scanner,"ingrese el index deseado");
         if (indexLeido !=-1){
             mostrarElementos(indexLeido,arrayAleatorio); //
         }
@@ -40,8 +43,8 @@ public class TryCatch {
 
 
 //        final var random = new Random();
-//        final var a = UtilitiesRandomP.generarRandomInt(5,10,random);
-//        final var b = UtilitiesRandomP.generarRandomInt(-5,10,random);
+//        final var a = utilities.UtilitiesRandomP.generarRandomInt(5,10,random);
+//        final var b = utilities.UtilitiesRandomP.generarRandomInt(-5,10,random);
 //        System.out.println(a);
 //        System.out.println(b);
 //
@@ -53,7 +56,7 @@ public class TryCatch {
 //            System.err.println("ArithmeticException: %s%n", aritmeticException.getLocalizedMessage());
 //        }
 //
-//        final var c = UtilitiesRandomP.generarRandomInt(5,10,random);
+//        final var c = utilities.UtilitiesRandomP.generarRandomInt(5,10,random);
 //        final var producto = a * b;
 //        System.out.printf("El producto es: %d%n", producto);
 //    }

@@ -33,10 +33,10 @@ public class Switchs {
      */
     public static void main(String[] args) {
         final var scanner = new Scanner(System.in);
-//        final var num1 = ScannerManager.leerInt(scanner, "Ingrese el primer numero");
-//        final var num2 = ScannerManager.leerInt(scanner, "Ingrese el segundo numero");
+//        final var num1 = utilities.ScannerManager.leerInt(scanner, "Ingrese el primer numero");
+//        final var num2 = utilities.ScannerManager.leerInt(scanner, "Ingrese el segundo numero");
 //        imprimirMenu();
-//        final var eleccion = ScannerManager.leerChar(scanner, "Ingrese que operacion desea realizar");
+//        final var eleccion = utilities.ScannerManager.leerChar(scanner, "Ingrese que operacion desea realizar");
 //        scanner.close();
 //        ejecutarOpcion(eleccion, num1, num2);
         var cantidadKcal = 0;

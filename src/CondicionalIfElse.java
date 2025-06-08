@@ -6,8 +6,8 @@ public class CondicionalIfElse {
         final var random = new Random();
         final var scanner = new Scanner(System.in);
 //        Ejecicio 1
-//        final var numeroAleatorio = UtilitiesRandomP.generarRandomInt(1, 6, random);
-//        final var numeroJugador = ScannerManager.leerInt(scanner, "Ingrese un numero del 1 al 6");
+//        final var numeroAleatorio = utilities.UtilitiesRandomP.generarRandomInt(1, 6, random);
+//        final var numeroJugador = utilities.ScannerManager.leerInt(scanner, "Ingrese un numero del 1 al 6");
 //        scanner.close();
 //
 //        if (validarNumero(numeroJugador)) {
@@ -22,9 +22,9 @@ public class CondicionalIfElse {
         imprimirResultado(montoPrestamo, montoFinal);
 
 //        Ejercicio 3
-//        final var radio = ScannerManager.leerInt(scanner, "Ingrese el radio");
+//        final var radio = utilities.ScannerManager.leerInt(scanner, "Ingrese el radio");
 //        imprimirMenu();
-//        final var eleccion = ScannerManager.leerChar(scanner, "Ingrese su eleccion");
+//        final var eleccion = utilities.ScannerManager.leerChar(scanner, "Ingrese su eleccion");
 //        scanner.close();
 //        final var eleccionValida = validarInput(eleccion);
 //        if (eleccionValida) {

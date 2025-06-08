@@ -57,7 +57,7 @@ public class sets {
 //        var setNuevo = new HashSet<String>();
 //        String eleccion;
 //        do {
-//        eleccion = ScannerManager.leerString(scanner,"Ingrese un regalo o escriba salida para terminar").toLowerCase();
+//        eleccion = utilities.ScannerManager.leerString(scanner,"Ingrese un regalo o escriba salida para terminar").toLowerCase();
 //        if (!eleccion.equals("salida")){
 //            setNuevo.add(eleccion);
 //        };
@@ -78,7 +78,7 @@ public class sets {
 //        var setNuevo = new HashSet<String>();
 //        String eleccion;
 //        do {
-//        eleccion = ScannerManager.leerString(scanner,"Ingrese los utiles o escriba salida para terminar").toLowerCase();
+//        eleccion = utilities.ScannerManager.leerString(scanner,"Ingrese los utiles o escriba salida para terminar").toLowerCase();
 //        if (!eleccion.equals("salida")){
 //            setNuevo.add(eleccion);
 //        };
@@ -99,7 +99,7 @@ public class sets {
         var setNuevo = new HashSet<String>();
         String eleccion;
         do {
-            eleccion = ScannerManager.leerString(scanner,"Ingrese los animales o escriba salida para terminar").toLowerCase();
+            eleccion = utilities.ScannerManager.leerString(scanner,"Ingrese los animales o escriba salida para terminar").toLowerCase();
             if (!eleccion.equals("salida")){
                 setNuevo.add(eleccion);
             };

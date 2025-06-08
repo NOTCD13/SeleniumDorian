@@ -6,7 +6,7 @@ public class BubbleSort {
     public static void main(String[] args) {
         final var scanner = new Scanner(System.in);
         final var random = new Random();
-//        final var arrayAleatorio = UtilitiesRandomP.generarRandomArrayInt(30,10,500,random);
+//        final var arrayAleatorio = utilities.UtilitiesRandomP.generarRandomArrayInt(30,10,500,random);
 //        ordenarArray(arrayAleatorio);
 //        mostrarArrayOrdenadoInt(arrayAleatorio);
 

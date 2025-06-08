@@ -1,14 +1,16 @@
+import utilities.ScannerManager;
+
 import java.util.Scanner;
 
 public class aplicacionAlgoritmicas {
     public static void main(String[] args) {
         final var scanner = new Scanner(System.in);
-//        final var n = ScannerManager.leerInt(scanner,"Ingrese cantidad numeros serie de fibonacci");
+//        final var n = utilities.ScannerManager.leerInt(scanner,"Ingrese cantidad numeros serie de fibonacci");
 
         //Ejercicio 1 Secuencia de fibonacci
 //        mostrarSerieFibonacci(n);
         //Ejercicio 2 InvertirNumeroEjemplo
-//        final var n2 = ScannerManager.leerInt(scanner,"ingrese numero a verificar si es capicua");
+//        final var n2 = utilities.ScannerManager.leerInt(scanner,"ingrese numero a verificar si es capicua");
 //        final var nInvertido =invertirNumero(n2);
 //        final var esCapicua = esCapicua(n2,nInvertido);
 //        System.out.printf("El numero %d es capicua? %b%n",n2,esCapicua);

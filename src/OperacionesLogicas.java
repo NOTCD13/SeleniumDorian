@@ -1,3 +1,5 @@
+import utilities.UtilitiesRandomP;
+
 import java.util.Random;
 
 public class OperacionesLogicas {

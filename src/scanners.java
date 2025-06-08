@@ -1,5 +1,6 @@
-import java.util.Scanner;
+import utilities.ScannerManager;
 
+import java.util.Scanner;
 
 public class scanners {
     /**
