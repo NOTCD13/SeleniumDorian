@@ -11,3 +11,4 @@ public class ejercicio3 {
         System.out.printf("nombre: %s genero: %s empresa: %s%n",videojuego3.getNombre(),videojuego3.getGenero(),videojuego3.getEmpresa());
     }
 }
+//
