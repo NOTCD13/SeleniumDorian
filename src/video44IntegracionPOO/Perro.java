@@ -1,6 +1,6 @@
-package ejercicioPOO;
+package video44IntegracionPOO;
 
-public class Perro{
+public class Perro {
     private int edad;
     private String nombre;
     private String amo;

@@ -99,7 +99,7 @@ public class sets {
         var setNuevo = new HashSet<String>();
         String eleccion;
         do {
-            eleccion = utilities.ScannerManager.leerString(scanner,"Ingrese los animales o escriba salida para terminar").toLowerCase();
+            eleccion = ScannerManager.leerString(scanner,"Ingrese los animales o escriba salida para terminar").toLowerCase();
             if (!eleccion.equals("salida")){
                 setNuevo.add(eleccion);
             };
