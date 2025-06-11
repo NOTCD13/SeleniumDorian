@@ -1,13 +1,13 @@
 package ejercicios;
 
-import utilities.UtilitiesRandomP;
+import utilities.RandomUtilities;
 
 import java.util.Random;
 
 public class EjercicioPrueba {
     public static void main(String[] args) {
-        final var random = new Random();
-        final var aleatorio = UtilitiesRandomP.generarRandomInt(5,10,random);
-        System.out.printf("%d%n",aleatorio);
+        final var numeroAleatorio = RandomUtilities.generarRandomInt(5, 2, new Random());
+        System.out.println("numero aleatorio: " + numeroAleatorio);
     }
+
 }

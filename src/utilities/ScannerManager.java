@@ -27,5 +27,4 @@ public class ScannerManager {
         System.out.printf("%s: ", mensaje);
         return scanner.nextBoolean();
     }
-
 }
