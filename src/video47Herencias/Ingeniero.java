@@ -32,6 +32,7 @@ public class Ingeniero extends Persona{
                 edad,
                 casado,
                 constructora,
+                edificiosConstruidos,
                 edificiosPlanificados
         );
     }
